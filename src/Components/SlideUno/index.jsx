@@ -9,6 +9,8 @@ const SlideUno = () => {
             <picture>
                 <img src={florkMusic} alt="flork music" />
             </picture>
+            <p className='fixed right-5 bottom-10'><span className='font-medium'>Atte.,</span> Tus hijos</p>
+            <p className='fixed right-8 bottom-5'><span className='font-medium'>Para:</span> Monica</p>
         </div>
     )
 }

@@ -6,6 +6,7 @@ dns.setDefaultResultOrder('verbatim')
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/mom_day/',
   
   // vite.config.js
   server: {

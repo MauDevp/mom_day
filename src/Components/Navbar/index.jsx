@@ -8,23 +8,29 @@ const Navbar = () => {
             <ul className='flex items-center gap-4'>
                 <li className='text-gray-800 font-semibold text-lg transition-transform duration-500 transform'>
                     <NavLink
-                        to='/'
-                        className={({ isActive }) =>
-                            isActive ? activeStyle : undefined}
-                        >
+                        to='/mom_day'
+                        className="">
                         Dedicatoria
                     </NavLink>
                 </li>
             </ul>
-
             <ul className='flex items-center gap-4'>
             <li className='text-gray-800 font-semibold text-lg transition-transform duration-500 transform'>
                     <NavLink 
-                        to='/cupones'
+                        to='/mom_day/cupones'
                         className={({ isActive }) =>
-                            isActive ? activeStyle : undefined}
-                        >
+                            isActive ? activeStyle : undefined}>
                         Cupones
+                    </NavLink>
+                </li>
+            </ul>
+            <ul className='flex items-center gap-4'>
+            <li className='text-gray-800 font-semibold text-lg transition-transform duration-500 transform'>
+                    <NavLink 
+                        to='/mom_day/music'
+                        className={({ isActive }) =>
+                            isActive ? activeStyle : undefined}>
+                        Canción
                     </NavLink>
                 </li>
             </ul>
